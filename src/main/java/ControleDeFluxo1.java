@@ -1,4 +1,4 @@
-public class ControleFluxo1 {
+public class ControleDeFluxo1 {
     public static void main(String[] args) {
         int idade = 55;
         String categoria;
