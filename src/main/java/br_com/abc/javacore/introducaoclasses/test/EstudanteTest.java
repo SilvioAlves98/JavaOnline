@@ -1,6 +1,6 @@
-package br_com.abc.javacore.intrudocaoclassestest;
+package br_com.abc.javacore.introducaoclasses.test;
 
-import br_com.abc.javacore.introducaoclasses.Estudante;
+import br_com.abc.javacore.introducaoclasses.classes.Estudante;
 
 public class EstudanteTest {
     public static void main(String[] args) {
