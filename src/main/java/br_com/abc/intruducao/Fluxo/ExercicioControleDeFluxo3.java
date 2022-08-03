@@ -1,3 +1,5 @@
+package br_com.abc.intruducao.Fluxo;
+
 public class ExercicioControleDeFluxo3 {
     public static void main(String[] args) {
         int valor = 50000;

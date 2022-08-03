@@ -1,3 +1,5 @@
+package br_com.abc.intruducao.Fluxo;
+
 public class ControleDeFLuxo5 {
     public static void main(String[] args) {
         double valorTotal = 30000;

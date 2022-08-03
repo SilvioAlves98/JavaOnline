@@ -1,3 +1,5 @@
+package br_com.abc.intruducao.Operadores;
+
 public class OperadoresLogicos {
     public static void main(String[] args){
         int idade = 18;

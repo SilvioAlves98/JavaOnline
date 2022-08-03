@@ -1,3 +1,5 @@
+package br_com.abc.intruducao.Fluxo;
+
 public class ExercicioControleDeFluxo {
     public static void main(String[] args) {
         float  salario = 5500;

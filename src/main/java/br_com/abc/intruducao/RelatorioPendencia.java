@@ -1,3 +1,5 @@
+package br_com.abc.intruducao;
+
 public class RelatorioPendencia {
     public static void main(String[] args){
         String nome ="Goku";

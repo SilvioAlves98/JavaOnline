@@ -1,3 +1,5 @@
+package br_com.abc.intruducao.Operadores;
+
 public class OperadoresDeAtribuicao {
     public static void main(String[] args) {
         int salario = 1800;

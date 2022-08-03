@@ -1,3 +1,5 @@
+package br_com.abc.intruducao.Fluxo;
+
 public class ExercicioControleFluxo2 {
     public static void main(String[] args) {
         byte dia = 1;
