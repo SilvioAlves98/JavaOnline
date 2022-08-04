@@ -3,7 +3,7 @@ package br_com.abc.javacore.introducaometodos.test;
 import br_com.abc.javacore.introducaometodos.classes.Calculadora;
 
 public class CalculadoraTest {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Calculadora calc = new Calculadora();
         calc.somaDoisNumeros();
         calc.subtraiDoisNumeros();
@@ -14,5 +14,9 @@ public class CalculadoraTest {
         System.out.println("Imprime dois numeros: ");
         calc.imprimeDoisNumerosDivididos(20,5);
         System.out.println("Continuando a execucao ");
+
+        int[] numeros = {1,2,3,4,5};
+        calc.somaArray(numeros);
+        calc.somaVarArgs(1,2,3,4,5);
     }
 }
