@@ -1,13 +1,17 @@
 package br_com.abc.javacore.blocodeinicializacao.classes;
 
 public class Cliente {
-    private int[] parcelas = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+    private int[] parcelas ;
+    {
+        parcelas = new int[100];
+        System.out.println("Dentro do bloco de inicializacao");
+        for (int i=1; i<=100; i++){
+            parcelas[i-1] = i;
+        }
+
+    }
 
     public Cliente(){
-        System.out.println("Dentro do construtor");
-        for (int parcela: this.parcelas){
-            System.out.println(parcela + " ");
-        }
     }
 
 
